@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 
 
+.text{
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+}
 .bg-red{
     background: #000;
 }
@@ -21,6 +25,13 @@
     
    
 }
+.row input{
+    height: 35px;
+    width: 362px;
+}
+.input{
+    padding: 0px 0px;
+}
 .button{
     padding: 33px;
     margin: 0px 6px;
@@ -37,4 +48,12 @@
 }
 .inner{
     background-color: rgb(26,26,26);
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
 }
